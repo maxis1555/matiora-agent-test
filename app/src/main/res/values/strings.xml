@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Matiora Agent</string>
+    <string name="device_admin_description">Matiora Agent device policy controller</string>
+    <string name="label_package">Package</string>
+    <string name="label_application_id">applicationId</string>
+    <string name="label_android">Android</string>
+    <string name="label_sdk">SDK</string>
+    <string name="label_manufacturer">Manufacturer</string>
+    <string name="label_model">Model</string>
+    <string name="label_device_owner">Device Owner</string>
+    <string name="label_device_admin">Device Admin</string>
+    <string name="label_admin_component">DPC component</string>
+    <string name="label_provisioning">Provisioning</string>
+    <string name="label_device_provisioned">device_provisioned</string>
+    <string name="label_user_setup_complete">user_setup_complete</string>
+    <string name="label_managed_device_provisioning_allowed">isProvisioningAllowed(MANAGED_DEVICE)</string>
+    <string name="label_user_restrictions">User restrictions</string>
+    <string name="value_yes">YES</string>
+    <string name="value_no">NO</string>
+    <string name="value_none">none</string>
+    <string name="provisioning_state_device_owner">operating as Device Owner</string>
+    <string name="provisioning_state_not_device_owner">not Device Owner</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MatioraAgent" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/matiora_navy</item>
+        <item name="android:navigationBarColor">@color/matiora_navy</item>
+        <item name="android:windowBackground">@color/matiora_background</item>
+        <item name="android:textColorPrimary">@color/matiora_text</item>
+    </style>
+
+    <style name="Theme.MatioraAgent.Provisioning" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+</resources>

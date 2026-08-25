@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="matiora_navy">#1B4F72</color>
+    <color name="matiora_text">#1C2833</color>
+    <color name="matiora_muted">#5D6D7E</color>
+    <color name="matiora_background">#F4F6F7</color>
+    <color name="matiora_yes">#1E8449</color>
+    <color name="matiora_no">#922B21</color>
+    <color name="matiora_icon_bg">#1B4F72</color>
+</resources>

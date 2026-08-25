@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/matiora_background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="24dp"
+            android:text="@string/app_name"
+            android:textColor="@color/matiora_navy"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/packageLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_package"
+            android:textAllCaps="true"
+            android:textColor="@color/matiora_muted"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/packageValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:textIsSelectable="true"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/applicationIdLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_application_id"
+            android:textAllCaps="true"
+            android:textColor="@color/matiora_muted"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/applicationIdValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:textIsSelectable="true"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/androidLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_android"
+            android:textAllCaps="true"
+            android:textColor="@color/matiora_muted"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/androidValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sdkLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_sdk"
+            android:textAllCaps="true"
+            android:textColor="@color/matiora_muted"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/sdkValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/manufacturerLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_manufacturer"
+            android:textAllCaps="true"
+            android:textColor="@color/matiora_muted"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/manufacturerValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/modelLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_model"
+            android:textAllCaps="true"
+            android:textColor="@color/matiora_muted"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/modelValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/deviceOwnerLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_device_owner"
+            android:textAllCaps="true"
+            android:textColor="@color/matiora_muted"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/deviceOwnerValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/deviceAdminLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_device_admin"
+            android:textAllCaps="true"
+            android:textColor="@color/matiora_muted"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/deviceAdminValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="24dp"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/adminComponentLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_admin_component"
+            android:textAllCaps="true"
+            android:textColor="@color/matiora_muted"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/adminComponentValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:textIsSelectable="true"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/provisioningLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_provisioning"
+            android:textAllCaps="true"
+            android:textColor="@color/matiora_muted"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/provisioningValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/deviceProvisionedLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_device_provisioned"
+            android:textAllCaps="true"
+            android:textColor="@color/matiora_muted"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/deviceProvisionedValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/userSetupCompleteLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_user_setup_complete"
+            android:textAllCaps="true"
+            android:textColor="@color/matiora_muted"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/userSetupCompleteValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/provisioningAllowedLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_managed_device_provisioning_allowed"
+            android:textAllCaps="true"
+            android:textColor="@color/matiora_muted"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/provisioningAllowedValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/userRestrictionsLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_user_restrictions"
+            android:textAllCaps="true"
+            android:textColor="@color/matiora_muted"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/userRestrictionsValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textIsSelectable="true"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>
